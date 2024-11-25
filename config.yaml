@@ -1,0 +1,16 @@
+config:
+  refresh_rate: 3600
+  discord_webhook: "PUT DISCORD WEBBHOOK HERE"
+  discord_profile: "PROFILE PIC OF WEBHOOK HERE"
+
+sources:
+  - name: "Korben"
+    url: "https://korben.info/feed"
+  - name: "JBriault"
+    url: "https://blog.jbriault.fr/rss/"
+  - name: "Undernews"
+    url: "https://www.undernews.fr/feed"
+    category: "Hacking" # <category><![CDATA[Hacking]]></category>
+  - name: "01Net"
+    url: "https://www.01net.com/actualites/feed/"
+    category: "Sécurité", "cyberattaques"
