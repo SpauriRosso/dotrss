@@ -13,4 +13,6 @@ sources:
     category: "Hacking" # <category><![CDATA[Hacking]]></category>
   - name: "01Net"
     url: "https://www.01net.com/actualites/feed/"
-    category: "Sécurité", "cyberattaques"
+    category:
+      - "Sécurité"
+      - "cyberattaques"
